@@ -64,5 +64,148 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Email-Validation.org is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://email-validation.org
+Email-Validation.org provides a fast, accurate email validation and verification API. It allows developers to check whether an email address can receive mail before sending, offering up to 500 free credits on sign‑up and 5 free checks per day without an account. The service emphasizes speed, security, and cost‑efficiency, returning results in under 10 seconds and ensuring unknown results do not consume credits. It supports bulk verification, integrates with platforms like Zapier and HubSpot, and offers detailed status codes and documentation for developers.
+
+**Areas:** Company · Email · Validation · API · Verification
+
+## Email-Validation.org on APIs.io
+
+Everything profiled for Email-Validation.org is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/email-validation-org/](https://apis.io/providers/email-validation-org/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Email-Validation.org A2A API](https://apis.io/apis/email-validation-org/email-validation-org-a2a-api/) — Agent2Agent (A2A) protocol endpoint and agent card for AI agents.
+- [Email-Validation.org Account API](https://apis.io/apis/email-validation-org/email-validation-org-account-api/) — Credits and usage.
+- [Email-Validation.org Bulk jobs API](https://apis.io/apis/email-validation-org/email-validation-org-bulk-jobs-api/) — Check lists of up to 1,000,000 rows.
+- [Email-Validation.org MCP API](https://apis.io/apis/email-validation-org/email-validation-org-mcp-api/) — Model Context Protocol endpoint for AI agents.
+- [Email-Validation.org Service API](https://apis.io/apis/email-validation-org/email-validation-org-service-api/) — Service status, the latency test and this document.
+- [Email-Validation.org Validation API](https://apis.io/apis/email-validation-org/email-validation-org-validation-api/) — Check single addresses.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Email Validation Org Webhooks](https://apis.io/asyncapis/email-validation-org/email-validation-org-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Email-Validation.org Agentic Access](https://apis.io/agentic-access/email-validation-org/email-validation-org-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BulkJob](https://apis.io/schemas/email-validation-org/email-validation-org-bulk-job/)
+- [LatencyTest](https://apis.io/schemas/email-validation-org/email-validation-org-latency-test/)
+- [ServiceStatus](https://apis.io/schemas/email-validation-org/email-validation-org-service-status/)
+- [UsageResponse](https://apis.io/schemas/email-validation-org/email-validation-org-usage-response/)
+- [ValidateRequest](https://apis.io/schemas/email-validation-org/email-validation-org-validate-request/)
+- [ValidationResult](https://apis.io/schemas/email-validation-org/email-validation-org-validation-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Email Validation Org Context](https://apis.io/jsonld/email-validation-org/email-validation-org-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Email-Validation.org API Rules](https://apis.io/rules/email-validation-org/email-validation-org-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Email-Validation.org Authentication](https://apis.io/security/email-validation-org/email-validation-org-authentication/)
+- [Email-Validation.org Domain Security](https://apis.io/security/email-validation-org/email-validation-org-domain-security/)
+- [Email-Validation.org Vulnerability Disclosure](https://apis.io/security/email-validation-org/email-validation-org-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Email-Validation.org Plans Pricing](https://apis.io/plans/email-validation-org/email-validation-org-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Email-Validation.org Rate Limits](https://apis.io/rate-limits/email-validation-org/email-validation-org-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://email-validation.org)
+- [Documentation](https://email-validation.org/docs/api-reference/)
+- [Getting started](https://email-validation.org/docs/quickstart/)
+- [Pricing](https://email-validation.org/pricing/)
+- [Changelog](https://email-validation.org/changelog/)
+- [Security](https://email-validation.org/security/)
+- [Terms of service](https://email-validation.org/legal/terms/)
+- [Privacy policy](https://email-validation.org/legal/privacy/)
+- [Status](https://email-validation.org/status/)
+
+## API Evangelist rating
+
+**Kin Score 66.3** — strong · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 71.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 71.0 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 59.1 |
+
+**Agent readiness 69.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/email-validation-org/](https://apis.io/providers/email-validation-org/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Email-Validation.org: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/email-validation-org/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
